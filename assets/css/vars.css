@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+.light-mode:root {
+    /* !  COLORS */
+    --body-bg: #faf5ef;
+    --body-text: #2b1d00; 
+    --color-yellow: #ffbd59;
+
+    /* * FONTS */
+    --body-font: 'Anton', sans-serif;
+}
+
+.dark-mode:root{
+    /* !  COLORS */
+    --body-bg: #2b1d00;
+    --body-text: #faf5ef;
+
+}
