@@ -2,41 +2,78 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Murilo Costa</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/media-queries.css">
     <link rel="stylesheet" href="./assets/css/vars.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
 </head>
 <body>
+    <div id="config" class="config"><i class='bx bxs-cog'></i></div>
 
-    <header class="header">
-        <nav class="navigation">
-            <ul class="navigation__items">
-                <li class="items">Home</li>
-                <li class="items">About Me</li>
-                <li class="items">Projects</li>
-                <li id="config" class="config"><i class='bx bxs-cog' ></i></li>
+    <aside id="navbar" class="navbar slideOut">
+        <div class="header-navbar">
+            <i id="close" class='bx bx-x'></i>
+        </div>
+        <div class="navegation">
+            <ul class="navegation__item">
+                <a href="#home"><li class="item">Home</li></a>
+
+                <a href=""><li class="item">About Me</li></a>
+
+                <a href="#project"><li class="item">Projects</li></a>
+
+                <a href=""><li class="item">Contact</li></a>
             </ul>
-        </nav>
-    </header>
+        </div>
+        <div class="theme-area">
+            <input id="darkmode" type="checkbox">
+            <p>Darkmode</p>
+        </div>
+    </aside>
 
-    <main>
-        <div class="home-main-content">
+    <section id="home" class="home-main-content"">
+        <main>
             <div class="text">
                 <div class="name"><h2>Murilo Costa</h2></div>
                 <div class="dev"><h2>| DEV</h2></div>
             </div>
             <div class="links-social">
-                <a href="" class="icon"><i class='bx bxl-github' ></i></a>
-                <a href="" class="icon"><i class='bx bxl-instagram' ></i></a>
-                <a href="" class="icon"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="https://github.com/omurilocosta" target="_blank" class="icon"><i class='bx bxl-github' ></i></a>
+                <a href="https://www.instagram.com/murilo.cost4/" target="_blank" class="icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://www.linkedin.com/in/murilo-cost4/" target="_blank" class="icon"><i class='bx bxl-linkedin-square'></i></a>
             </div>
-        </div>
-    </main>
+        </main>
+    </section>
 
-    <input type="checkbox" id="checkbox">
+    <section id="project" class="project-main">
+        <div class="content">
+            <header class="header__project">
+                <h2 class="title">Projects</h2>
+            </header>
+            <main class="project-area">
+                <div class="project-item">
+                    <div class="project-item--content">
+                        <h2 class="project-item--title">Project 1</h2>
+                        <a href="">
+                            <div class="project-item--button">
+                                <i class='bx bx-right-arrow-alt'></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-item"></div>
+                <div class="project-item"></div>
+                <div class="project-item"></div>
+                <div class="project-item"></div>
+                <div class="project-item"></div>
+                <div class="project-item"></div>
+                <div class="project-item"></div>
+            </main>
+        </div>
+    </section>
 
 </body>
 <script defer src="script.js"></script>

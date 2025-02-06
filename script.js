@@ -1,7 +1,19 @@
-const checkDarkMode = document.querySelector('#checkbox')
 const html = document.querySelector('html')
-html.classList.toggle('light-mode')
+const config = document.querySelector('#config')
+const navbar = document.querySelector('#navbar')
+const check = document.querySelector('#darkmode')
+const close = document.querySelector('#close')
 
-checkDarkMode.addEventListener('change', function() {
+config.addEventListener('click', function() {
+    navbar.classList.remove('slideOut')
+    navbar.classList.add('slideIn')
+    console.log('click');
+})
+close.addEventListener('click', function() {
+    navbar.classList.remove('slideIn')
+    navbar.classList.add('slideOut')
+})
+
+check.addEventListener('click', function() {
     html.classList.toggle('dark-mode')
 })

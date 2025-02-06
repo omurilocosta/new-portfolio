@@ -1,17 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-.light-mode:root {
+
+:root {
     /* !  COLORS */
-    --body-bg: #faf5ef;
-    --body-text: #2b1d00; 
-    --color-yellow: #ffbd59;
+    --body-bg: #E8F1F2;
+    --body-text: #13293d; 
+    --color-blue: #1B98E0;
 
     /* * FONTS */
     --body-font: 'Anton', sans-serif;
+
+    /* ! IMG */
+    --img-back-home: url('../img/back-home-dark.png');
 }
 
 .dark-mode:root{
     /* !  COLORS */
-    --body-bg: #2b1d00;
-    --body-text: #faf5ef;
+    --body-bg: #13293d;
+    --body-text: #E8F1F2;
+    --color-blue: #1B98E0;
 
+    /* * FONTS */
+    --body-font: 'Anton', sans-serif;
+
+    /* ! IMG */
+    --img-back-home: url('../img/back-home-light.png');
 }
