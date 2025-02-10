@@ -11,28 +11,35 @@
 
 </head>
 <body>
-    <div id="config" class="config"><i class='bx bxs-cog'></i></div>
-
-    <aside id="navbar" class="navbar slideOut">
-        <div class="header-navbar">
-            <i id="close" class='bx bx-x'></i>
+    <!-- ! MODEL -->
+    <div class="model">
+        <div class="project-item">
+            <h2 class="project-item--title"></h2>
+            <a href="">
+                <div class="project-item--button">
+                    <i class='bx bx-right-arrow-alt'></i>
+                </div>
+            </a>
         </div>
-        <div class="navegation">
-            <ul class="navegation__item">
-                <a href="#home"><li class="item">Home</li></a>
+    </div>
+    <!-- ! END MODEL -->
 
-                <a href=""><li class="item">About Me</li></a>
-
-                <a href="#project"><li class="item">Projects</li></a>
-
-                <a href=""><li class="item">Contact</li></a>
+    <header>
+        <nav>
+            <a class="logo" href="/">< MC ></a>
+            <div class="mobile-menu">
+                <div class="line-1"></div>
+                <div class="line-2"></div>
+                <div class="line-3"></div>
+            </div>
+            <ul class="nav__list">
+                <li><a href="/">Início</a></li>
+                <li><a href="/">Sobre</a></li>
+                <li><a href="/">Projetos</a></li>
+                <li><a href="/">Contato</a></li>
             </ul>
-        </div>
-        <div class="theme-area">
-            <input id="darkmode" type="checkbox">
-            <p>Darkmode</p>
-        </div>
-    </aside>
+        </nav>
+    </header>
 
     <section id="home" class="home-main-content"">
         <main>
@@ -45,6 +52,10 @@
                 <a href="https://www.instagram.com/murilo.cost4/" target="_blank" class="icon"><i class='bx bxl-instagram' ></i></a>
                 <a href="https://www.linkedin.com/in/murilo-cost4/" target="_blank" class="icon"><i class='bx bxl-linkedin-square'></i></a>
             </div>
+            <div class="download__button">
+                <h2>DOWNLOAD</h2>
+                <i id="arrow_download" class='bx bx-right-arrow-alt'></i>
+            </div>
         </main>
     </section>
 
@@ -53,28 +64,12 @@
             <header class="header__project">
                 <h2 class="title">Projects</h2>
             </header>
-            <main class="project-area">
-                <div class="project-item">
-                    <div class="project-item--content">
-                        <h2 class="project-item--title">Project 1</h2>
-                        <a href="">
-                            <div class="project-item--button">
-                                <i class='bx bx-right-arrow-alt'></i>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="project-item"></div>
-                <div class="project-item"></div>
-                <div class="project-item"></div>
-                <div class="project-item"></div>
-                <div class="project-item"></div>
-                <div class="project-item"></div>
-                <div class="project-item"></div>
-            </main>
+            <main class="project-area"></main>
         </div>
     </section>
 
 </body>
-<script defer src="script.js"></script>
+<script defer src="./assets/js/project.js"></script>
+<script defer src="./assets/js/mobile-navbar.js"></script>
+<script defer src="./assets/js/script.js"></script>
 </html>
