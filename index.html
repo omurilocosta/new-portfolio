@@ -14,19 +14,27 @@
     <!-- ! MODEL -->
     <div class="model">
         <div class="project-item">
-            <h2 class="project-item--title"></h2>
-            <a href="">
-                <div class="project-item--button">
-                    <i class='bx bx-right-arrow-alt'></i>
+            <div class="project-item--img">
+                <a href="">
+                    <img src="">
+                </a>
+            </div>
+            <div class="project-item--info">
+                <div class="project-item--title"></div>
+                <div class="project-item--links">
+                    <a id="git" href=""><i class='bx bxl-github'></i></a>
+                    <a id="dep" href=""><i class='bx bx-globe'></i></a>
                 </div>
-            </a>
+                <div class="project-item--desc"></div>
+                <div class="project-item--techs"></div>
+            </div>
         </div>
     </div>
     <!-- ! END MODEL -->
 
-    <header>
+    <header class="header__fixed">
         <nav>
-            <a class="logo" href="/">< MC ></a>
+            <span id="logo-header" class="logo" href="/"></span>
             <div class="mobile-menu">
                 <div class="line-1"></div>
                 <div class="line-2"></div>
@@ -37,24 +45,25 @@
                 <li><a href="/">Sobre</a></li>
                 <li><a href="/">Projetos</a></li>
                 <li><a href="/">Contato</a></li>
+                <li id="darkmode"><a >Mudar Tema</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="home" class="home-main-content"">
+    <section id="home" class="section__home"">
         <main>
             <div class="text">
                 <div class="name"><h2>Murilo Costa</h2></div>
                 <div class="dev"><h2>| DEV</h2></div>
             </div>
+            <div class="desc">Graduando em Engenharia de Software pela Uniasselvi.</div>
             <div class="links-social">
                 <a href="https://github.com/omurilocosta" target="_blank" class="icon"><i class='bx bxl-github' ></i></a>
                 <a href="https://www.instagram.com/murilo.cost4/" target="_blank" class="icon"><i class='bx bxl-instagram' ></i></a>
                 <a href="https://www.linkedin.com/in/murilo-cost4/" target="_blank" class="icon"><i class='bx bxl-linkedin-square'></i></a>
             </div>
-            <div class="download__button">
-                <h2>DOWNLOAD</h2>
-                <i id="arrow_download" class='bx bx-right-arrow-alt'></i>
+            <div class="button__contact">
+                <h2>Contate-me</h2>
             </div>
         </main>
     </section>
@@ -68,8 +77,20 @@
         </div>
     </section>
 
+    <footer>
+        <div class="footer-mc">
+            <span id="logo-footer" class="logo" href="/"></span>
+            <div class="links">
+                <a href="https://github.com/omurilocosta" target="_blank" class="icon"><i class='bx bxl-github' ></i></a>
+                <a href="https://www.instagram.com/murilo.cost4/" target="_blank" class="icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://www.linkedin.com/in/murilo-cost4/" target="_blank" class="icon"><i class='bx bxl-linkedin-square'></i></a>
+            </div>
+        </div>
+        <div class="register">Todos os direitos reservados</div>
+    </footer>
 </body>
 <script defer src="./assets/js/project.js"></script>
 <script defer src="./assets/js/mobile-navbar.js"></script>
 <script defer src="./assets/js/script.js"></script>
+
 </html>
