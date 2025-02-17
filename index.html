@@ -68,12 +68,39 @@
         </main>
     </section>
 
-    <section id="project" class="project-main">
+    <section id="project" class="section__project">
         <div class="content">
-            <header class="header__project">
-                <h2 class="title">Projects</h2>
+            <header class="header">
+                <h2 class="title">Projetos</h2>
             </header>
             <main class="project-area"></main>
+        </div>
+    </section>
+
+    <section id="contact" class="section__contact">
+        <header class="header">
+            <h2 class="title">Contate-me</h2>
+        </header>
+        <div class="contact-form">
+            <form action="">
+                <div class="contact-inputs-group">
+                    <div class="contact-input">
+                        <input required type="text" id="name" name="name">
+                        <label for="name">Nome</label>
+                    </div>
+                    <div class="contact-input">
+                        <input required type="text" id="email" name="email">
+                        <label for="name">E-mail</label>
+                    </div>
+                </div>
+                <div class="contact-textarea">
+                    <div class="contact-input">
+                        <textarea required name="message" id="message"></textarea>
+                        <label for="message">Mensagem</label>
+                    </div>
+                </div>
+                <button class="contact-button-submit" type="submit" role="button">ENVIAR</button>
+            </form>
         </div>
     </section>
 

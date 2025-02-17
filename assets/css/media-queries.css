@@ -73,6 +73,15 @@
         padding: 10px;
     }
     /* ? END PROJECT */
+
+    /* ? CONTACT */
+    .section__contact{
+        padding: 0 1rem ;
+    }
+    .contact-inputs-group {
+        flex-direction: column;
+    }
+    /* ? END CONTACT */
 }
 
 @media screen and (max-width:450px) {
@@ -82,4 +91,6 @@
     .section__home .desc{
         font-size: 0.8rem;
     }
+
+    
 }
