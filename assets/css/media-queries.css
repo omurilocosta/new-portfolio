@@ -64,7 +64,14 @@
         font-size: 1rem;
     }
     /* ? END HOME */
+    .section__about .content {
+        flex-direction: column-reverse;
+    }
 
+    .about-image img {
+        width: 200px;
+        height: 200px;
+    }
     /* ? PROJECT */
     .carrousel-projects {
         scroll-snap-type: none;
