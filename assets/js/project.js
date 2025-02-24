@@ -23,7 +23,7 @@ let projJSON = [
         name: 'PALAVRAX',
         desc: 'PalavraX é um jogo de raciocínio e dedução em que você deve descobrir a palavra secreta com base em uma série de dicas progressivas. Quanto menos dicas utilizar, maior será a sua pontuação!O jogo combina lógica, conhecimento geral e um toque de mistério para testar suas habilidades. Com uma mecânica envolvente e dinâmica, PalavraX é perfeito para jogar com seus amigos para ver quem consegue adivinhar as palavras mais rápido.',
         linkGit: 'https://github.com/omurilocosta/palavrax',
-        linkDep: 'https://palavrax.wuaze.com',
+        linkDep: 'http://palavrax.wuaze.com/',
         techs: ['php', 'css', 'js', 'bd']
     }
 ]
