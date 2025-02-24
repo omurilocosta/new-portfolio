@@ -21,7 +21,9 @@ dark.addEventListener('click', () => {
 const iconTechs = {
     html: "<div class='techs'><i class='bx bxl-html5'></i><p>HTML</p></div>",
     css: "<div class='techs'><i class='bx bxl-css3'></i><p>CSS</p></div>",
-    js: "<div class='techs'><i class='bx bxl-javascript'></i><p>JS</p></div>"
+    js: "<div class='techs'><i class='bx bxl-javascript'></i><p>JS</p></div>",
+    php: "<div class='techs'><i class='bx bxl-php'></i><p>PHP</p></div>",
+    bd: "<div class='techs'><i class='bx bxs-data'></i><p>DATABASE</p></div>
 }
 
 // FUNCTION TO CONVERT WORD TO ICON
