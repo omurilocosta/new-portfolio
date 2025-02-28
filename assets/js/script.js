@@ -23,7 +23,7 @@ const iconTechs = {
     css: "<div class='techs'><i class='bx bxl-css3'></i><p>CSS</p></div>",
     js: "<div class='techs'><i class='bx bxl-javascript'></i><p>JS</p></div>",
     php: "<div class='techs'><i class='bx bxl-php'></i><p>PHP</p></div>",
-    bd: "<div class='techs'><i class='bx bxs-data'></i><p>DATABASE</p></div>"
+    bd: "<div class='techs'><i class='bx bxs-data'></i><p>SQL</p></div>"
 }
 
 // FUNCTION TO CONVERT WORD TO ICON
