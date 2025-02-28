@@ -25,6 +25,6 @@ let projJSON = [
         linkGit: "https://github.com/omurilocosta/spotify-imersao-alura",
         linkDep: "https://omurilocosta.github.io/spotify-imersao-alura/",
         techs: ['html', 'css','js']
-    },
+    }
     
 ]
